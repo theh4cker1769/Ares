@@ -1,0 +1,19 @@
+#hero-area {
+    background-image: url(../img/home-bg-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+}
+
+#hero-area .contents {
+    background: #000000ba;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 560px) {
+    .navbar-brand {
+        width: 50%;
+    }
+}
